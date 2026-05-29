@@ -1,6 +1,6 @@
 def diagonalSum(mat):
-        n = len(mat)
-        total = 0
+    n = len(mat)
+    total = 0
     if n % 2 == 1:          # 奇数
         mid = n // 2
         total = mat[mid][mid]  # 中心元素只加一次
